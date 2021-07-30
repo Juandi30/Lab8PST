@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Lab8PST</string>
+    <string name="inicio">Inicio</string>
+    <string name="pagina">Pagina Web</string>
+    <string name="titulo">MENU PRINCIPAL</string>
+    <string name="ingrese">Ingrese Url</string>
+    <string name="Cargar">Cargar</string>
+    <string name="Regresar">Regresar</string>
+    <string name="INICIAR">INICIAR SESIÓN</string>
+    <string name="REVISAR">REVISAR CORREO</string>
+    <string name="ACERCA">ACERCA DE</string>
+
+    <string name="image_chooser">File Chooser</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+</resources>
