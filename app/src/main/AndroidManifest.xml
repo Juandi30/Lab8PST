@@ -15,9 +15,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lab8PST">
         <activity
+            android:name=".activityDB"
+            android:exported="true" />
+        <activity
             android:name=".logeo"
             android:exported="true" />
-
         <activity
             android:name=".acercaDe"
             android:exported="true" />
@@ -37,8 +39,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".mensaje" />
-        <activity android:name=".MainActivity"/>
-
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

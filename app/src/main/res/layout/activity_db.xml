@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".activityDB">
+
+    <EditText
+        android:id="@+id/txtCodigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingresar codigo"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/txtDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingresar descripcion"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/txtPrecio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Igresar precio"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/ingresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ingresar"
+        android:text="INGRESAR" />
+
+    <Button
+        android:id="@+id/consultar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="consultaporcodigo"
+        android:text="CONSULTAR POR CODIGO" />
+
+    <Button
+        android:id="@+id/descripcionbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="consultapordescripcion"
+        android:text="CONSULTAR POR DESCRIPCION" />
+
+    <Button
+        android:id="@+id/modificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="modificacion"
+        android:text="MODIFICAR" />
+
+    <Button
+        android:id="@+id/eliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="eliminar"
+        android:text="ELIMINAR" />
+
+</LinearLayout>
