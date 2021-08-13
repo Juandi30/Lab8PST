@@ -64,5 +64,11 @@
             android:layout_height="wrap_content"
             android:text="Base de Datos" />
 
+        <Button
+            android:id="@+id/idBaseRemota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BaseRemota" />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

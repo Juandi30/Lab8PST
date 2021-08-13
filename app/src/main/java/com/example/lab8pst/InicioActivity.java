@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class InicioActivity extends AppCompatActivity {
-    Button Inicio,Pagina,IniciarSesion,Revisar,Acerca,BaseDatos;
+    Button Inicio,Pagina,IniciarSesion,Revisar,Acerca,BaseDatos,BaseRemota;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,6 +19,7 @@ public class InicioActivity extends AppCompatActivity {
         Revisar = (Button)findViewById(R.id.idRevisar);
         Acerca = (Button)findViewById(R.id.idAcerca);
         BaseDatos = (Button)findViewById(R.id.baseDstos);
+        BaseRemota = (Button)findViewById(R.id.idBaseRemota);
 
         Inicio.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -65,6 +66,13 @@ public class InicioActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(),activityDB.class);
+                startActivity(intent);
+            }
+        });
+        BaseRemota.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(),BaseRemota.class);
                 startActivity(intent);
             }
         });
